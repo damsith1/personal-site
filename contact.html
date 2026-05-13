@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Damsith Wimalasena</title>
+  <title>Contact — Damsith Wimalasena</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -32,7 +32,10 @@
     nav a:hover { border-bottom-color: #eee; }
     nav a.active { border-bottom-color: #eee; color: #fff; }
     hr { border: none; border-top: 1px solid #2a2a2a; margin: 40px 0; }
-    p { max-width: 600px; }
+    ul { list-style: none; }
+    ul li { margin-bottom: 10px; }
+    ul li::before { content: "→ "; color: #444; }
+    .note { color: #555; font-size: 13px; margin-left: 4px; }
     footer { color: #333; font-size: 12px; margin-top: 64px; }
   </style>
 </head>
@@ -42,23 +45,24 @@
     <h1>Damsith Wimalasena</h1>
     <div class="sub">Cambridge · London · Colombo</div>
     <nav>
-      <a href="index.html" class="active">about</a>
+      <a href="index.html">about</a>
       <a href="links.html">links</a>
       <a href="writing.html">writing</a>
-      <a href="contact.html">contact</a>
+      <a href="contact.html" class="active">contact</a>
     </nav>
   </header>
 
   <hr>
 
-  <p>
-    I'm a graduate of the University of Cambridge in Land Economy. I'm from Sri Lanka and work
-    at the intersection of technology, policy, and social impact. I founded Coexist — an AI-powered
-    system using LiDAR sensors to detect elephants on railways and prevent fatal collisions. It won
-    the Lucy Cavendish Enterprise Award and earned me selection as a UN Millennium Fellow (top 5%
-    of 52,000 applicants from 170 countries). I serve as VP of Cambridge University Entrepreneurs
-    and as a Global Shaper with the World Economic Forum. I also debate.
-  </p>
+  <ul>
+    <li>
+      <a href="mailto:damsith78@gmail.com">damsith78@gmail.com</a>
+    </li>
+    <li>
+      <a href="mailto:YOUR_COEXIST_EMAIL">YOUR_COEXIST_EMAIL</a>
+      <span class="note">— Coexist enquiries</span>
+    </li>
+  </ul>
 
   <footer>— updated 2026</footer>
 
